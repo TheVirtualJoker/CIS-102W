@@ -8,9 +8,9 @@ var c = canvas.getContext('2d');
 c.fillStyle="yellow";
 /*c.fillRect(x,y,width,height);*/
 c.fillRect(100,100,100,100);
-c.fillStyle="red";
+c.fillStyle="green";
 c.fillRect(200,200,100,100);
-c.fillStyle="blue";
+c.fillStyle="orange";
 c.fillRect(300,300,100,100);
 
 
@@ -19,7 +19,7 @@ c.beginPath(); // we are saying that in canvas we are going to begin a path
 //c.moveTo(x,y)
 c.moveTo(100,200); // where on canvas we going to being a path
 c.lineTo(300,100); // untill where you want the line to be
-c.strokeStyle ="orange"; //to give a color to line
+c.strokeStyle ="purple"; //to give a color to line
 c.stroke() // until you say stroke line will not popup
 console.log(canvas);
 
