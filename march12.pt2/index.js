@@ -7,9 +7,9 @@ var c = canvas.getContext('2d');
 //to fill the rectangle you use fillstyle
 c.fillStyle="yellow";
 /*c.fillRect(x,y,width,height);*/
-c.fillRect(100,100,100,100);
+c.fillRect(100,500,100,100);
 c.fillStyle="green";
-c.fillRect(200,200,100,100);
+c.fillRect(300,200,100,100);
 c.fillStyle="orange";
 c.fillRect(300,300,100,100);
 
