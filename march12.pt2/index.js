@@ -1,4 +1,5 @@
 var canvas = document.querySelector('canvas');
+var button = document.querySelector('button');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
@@ -40,3 +41,5 @@ for(var i=1; i<5; i++){
   c.stroke();
 
 }
+
+alert("welcome")
